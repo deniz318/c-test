@@ -4,24 +4,55 @@
 	<title>Hello Denise! Finally!</title>
 	<style type="text/css">
 		body{
-			background-color: red;
+			background: grey;
+			font-family: cursive;
+			
+			font-size: 20px;
+		}
+		header{
+			cursor: col-resize;
 			text-align: center;
+			text-shadow: blue;
+			font-size: 40px;
+			font-family: fantasy;
 		}
-		nav{
-			color:yellow;
+		section{
+			margin: 5px;
+			background: orange;
+			color:white;
+			width: 400px;
+			
 		}
-		h1{
-			font-family: sans-serif;
+
+		article{
+			color:grey;
+			
+		}
+		article>a{
+			color:cyan;
+		}
+		section article a:hover{
+			color: yellow;
+			font-size: 30px;
 			text-align: center;
 		}
 	</style>
 </head>
 <body>
-<header style="align-content: center;">
-	<h1>Kids Klub Nursery!</h1>
-	<a href="">click</a>
-	<nav>A-105, Peru Baug, Aarey Road, Goregaon East<br>28072020</nav>
+<header>
+Welcome to Denise's Site
 </header>
-
+<section>
+	This is the fun section!
+	<article>Article 1
+	<a href="#secondSelection">click</a></article>
+	<article>Article 2</article>
+</section>
+<section id="secondSelection">
+	This is the boring section
+	<article>This is article 3</article>
+	<article>This is article 4</article>
+</section>
+<div> Hello <span> World </span></div>
 </body>
 </html>
